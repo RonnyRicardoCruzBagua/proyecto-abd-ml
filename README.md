@@ -3,7 +3,8 @@
 # Universidad Nacional de Chimborazo
 
 ## Título del proyecto
-Infraestructura de Persistencia Híbrida y Despliegue de Modelos de Machine Learning para la Resolución de Problemas de Analítica Predictiva 
+Predicción de cancelación de reservas hoteleras y segmentación de clientes mediante Machine Learning y persistencia
+híbrida.
 
 ## Dataset a usar:
     - Hotel booking demanda
@@ -20,7 +21,9 @@ Se encuentra en el siguiente enlace: https://www.kaggle.com/datasets/jessemostip
     - Cristopher Sanchéz
 
 ## Nuestro Objetivo:
-Desarrollar una solución basada en una infraestructura de persistencia híbrida y técnicas de Machine Learning para predecir la cancelación de reservas hoteleras, apoyando la toma de decisiones en la gestión de hoteles urbanos y resorts.
+Desarrollar una solución basada en una infraestructura de persistencia híbrida y técnicas de Machine Learning para
+predecir la cancelación de reservas hoteleras, apoyando la toma de decisiones en la gestión de hoteles urbanos y
+resorts.
 
 ## Objetivos Especificos:
 1. Analizar y procesar los datos históricos de reservas hoteleras, considerando variables como fecha de llegada, duración de la estadía, tipo de cliente, canal de distribución, país de origen, historial de cancelaciones, solicitudes especiales y tarifa diaria promedio.
