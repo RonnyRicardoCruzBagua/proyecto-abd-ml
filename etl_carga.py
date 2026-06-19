@@ -100,7 +100,7 @@ canales = df[['market_segment','distribution_channel']].drop_duplicates()
 # INSERTAR CANALES
 # -----------------------------
 try:
-    print("🚀 Insertando canales...")
+    print(" Insertando canales...")
 
     for _, fila in canales.iterrows():
         try:
@@ -132,7 +132,7 @@ habitaciones = df[['reserved_room_type','assigned_room_type']].drop_duplicates()
 # INSERTAR HABITACIONES
 # -----------------------------
 try:
-    print("🚀 Insertando habitaciones...")
+    print(" Insertando habitaciones...")
 
     for _, fila in habitaciones.iterrows():
         try:
@@ -150,7 +150,7 @@ try:
 
     conn.commit()
 
-    print("✅ Habitaciones insertadas correctamente")
+    print(" Habitaciones insertadas correctamente")
 
 except Exception as e:
     print(" Error al insertar habitaciones:", e)
@@ -179,7 +179,7 @@ try:
 
     conn.commit()
 
-    print("✅ Estados insertados correctamente")
+    print(" Estados insertados correctamente")
 
 except Exception as e:
     print(" Error al insertar estados:", e)
@@ -196,7 +196,7 @@ fechas = df[['arrival_date_year',
 # INSERTAR FECHAS
 # -----------------------------
 try:
-    print("🚀 Insertando fechas...")
+    print(" Insertando fechas...")
 
     for _, fila in fechas.iterrows():
         try:
