@@ -59,6 +59,7 @@ SELECT DISTINCT
     arrival_date_day_of_month
 FROM HotelDB_RAW.dbo.hotel_raw;
 
+/*  (Este bloque se hizo comentario para evitar errores de duplicados al ejecutar varias veces el proceso)
 -- Crear índices únicos para evitar filas duplicadas en las dimensiones
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = 'UQ_Hoteles_nombre' AND object_id = OBJECT_ID('HotelDB.dbo.Hoteles'))
     CREATE UNIQUE INDEX UQ_Hoteles_nombre ON HotelDB.dbo.Hoteles(nombre);
@@ -77,6 +78,7 @@ IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = 'UQ_EstadosReserva_cancele
 
 IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = 'UQ_FechasLlegada_combo' AND object_id = OBJECT_ID('HotelDB.dbo.FechasLlegada'))
     CREATE UNIQUE INDEX UQ_FechasLlegada_combo ON HotelDB.dbo.FechasLlegada(arrival_date_year, arrival_date_month, arrival_date_week_number, arrival_date_day_of_month);
+*/
 
 -- Reservas
 INSERT INTO HotelDB.dbo.Reservas (

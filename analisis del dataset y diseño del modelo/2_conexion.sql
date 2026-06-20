@@ -55,9 +55,9 @@ CREATE TABLE dbo.hotel_raw_temp (
 PRINT 'Tabla temporal creada para carga segura.';
 GO
 
--- Cargar datos desde el CSV a la tabla temporal
+-- Cargar datos desde el CSV a la tabla temporal (El URL debe cambiarse por la ruta local del archivo CSV)
 BULK INSERT dbo.hotel_raw_temp
-FROM 'C:\Users\USER ASUS\Desktop\Proyecto abd-ml\proyecto-abd-ml\database\hotel_bookings.csv'
+FROM 'C:\1_UNACH\1_Issac_Unach\1_AUTONOMOS UNACH\Semestre_4\ABD\Proyecto\Codigo_Proyecto\proyecto-abd-ml\database\hotel_bookings.csv'
 WITH (
     FIRSTROW = 2,
     FIELDTERMINATOR = ',',
