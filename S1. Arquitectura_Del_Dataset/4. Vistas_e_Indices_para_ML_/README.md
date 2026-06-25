@@ -1,5 +1,5 @@
 
-# Vistas e Índices para Machine Learning
+**# Vistas e Índices para Machine Learning**
 
 ## Proyecto
 
@@ -11,13 +11,13 @@
 
 ---
 
-## Descripción general
+**## Descripción general**
 
 Mi parte del proyecto consiste en preparar los datos de SQL Server para que puedan ser utilizados posteriormente en Python y Machine Learning, para esto se validó la base normalizada, se crearon vistas para modelos supervisados y no supervisados, se implementaron índices para mejorar el rendimiento de las consultas y se generaron evidencias de ejecución.
 
 ---
 
-## Archivos incluidos
+**## Archivos incluidos**
 
 ```text
 00_validacion_base.sql
@@ -27,7 +27,7 @@ Mi parte del proyecto consiste en preparar los datos de SQL Server para que pued
 README.md
 ```
 
-## 00_validacion_base.sql
+**## 00_validacion_base.sql**
 Este archivo verifica que la base de datos normalizada, HotelDB esté correctamente creada y poblada, se revisa la cantidad de registros de las tablas principales:
 - Hoteles
 - Clientes
@@ -99,7 +99,7 @@ Resultado esperado de ambas vistas:
 1. **vw_prediccion_cancelacion = 119390 registros**
 2. **vw_segmentacion_clientes = 119390 registros**
 
-## 02_indices_optimizacion.sql
+**## 02_indices_optimizacion.sql**
 Este archivo crea índices para mejorar el rendimiento de las consultas, los índices ayudan a que SQL Server consulte los datos de forma más rápida, especialmente cuando se usan uniones entre tablas o columnas importantes para análisis, se consideraron dos tipos de índices:
 
 **Índices clustered**
@@ -132,7 +132,7 @@ Estos índices apoyan consultas relacionadas con:
 - Historial de cancelaciones.
 - Variables usadas para clustering.
 
-## 03_evidencias_consultas.sql
+**## 03_evidencias_consultas.sql**
 Este archivo contiene consultas para comprobar que las vistas funcionan correctamente y para evidenciar el rendimiento, se realizaron consultas como:
 
 - Total de registros en las vistas.
