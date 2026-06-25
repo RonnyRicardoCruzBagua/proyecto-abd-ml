@@ -25,3 +25,5 @@ GO
 SELECT COUNT(*) AS total_reservas_normalizadas
 FROM HotelDB.dbo.Reservas;
 GO
+
+--
