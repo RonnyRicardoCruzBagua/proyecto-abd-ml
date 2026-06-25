@@ -130,3 +130,5 @@ print("\n📄 DOCUMENTOS EN MONGO:")
 
 for doc in coleccion.find().limit(3):
     print(doc)
+
+##
