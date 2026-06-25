@@ -80,3 +80,5 @@ CREATE TABLE Reservas (
     FOREIGN KEY (id_estado) REFERENCES EstadosReserva(id_estado),
     FOREIGN KEY (id_fecha) REFERENCES FechasLlegada(id_fecha)
 );
+
+--
