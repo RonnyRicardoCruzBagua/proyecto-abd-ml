@@ -105,4 +105,4 @@ Esto garantiza la integridad referencial.
 
 El dataset o csv fue descompuesto en múltiples tablas relacionadas para cumplir con la normalización (1FN, 2FN y 3FN). Se definieron entidades como Hoteles, Clientes, Reservas, Habitaciones, Canales y Fechas. La tabla Reservas actúa como entidad central conectada mediante llaves foráneas, evitando redundancia y mejorando la integridad de los datos.
 
-**Nota:** Realizar la conexion de vscode a sqlserver
+**Nota:** Realizar la conexion de vscode a sql-server.
