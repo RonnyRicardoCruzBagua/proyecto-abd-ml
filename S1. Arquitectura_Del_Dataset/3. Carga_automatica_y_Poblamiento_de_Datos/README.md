@@ -1,4 +1,4 @@
-# Integrante 3: Carga Automática y Poblamiento de Datos
+# Carga Automática y Poblamiento de Datos
 
 ## Descripción General
 
