@@ -13,3 +13,5 @@ SELECT COUNT(*) AS total_fechas FROM FechasLlegada;
 
 -- Visualización rápida
 SELECT TOP 10 * FROM Reservas;
+
+--
