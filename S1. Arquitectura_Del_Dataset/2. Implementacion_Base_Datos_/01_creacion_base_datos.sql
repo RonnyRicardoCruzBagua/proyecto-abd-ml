@@ -182,4 +182,4 @@ GO
 PRINT 'Base de datos HotelDB creada correctamente con tablas, PK, FK, constraints y tipos de datos adecuados.';
 GO
 
---
+
