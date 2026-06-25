@@ -206,3 +206,5 @@ WHERE OBJECT_NAME(i.object_id) IN (
 AND i.name IS NOT NULL
 ORDER BY tabla, indice;
 GO
+
+--
