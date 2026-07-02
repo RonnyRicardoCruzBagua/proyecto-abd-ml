@@ -138,3 +138,5 @@ GO
 SELECT COUNT(*) AS total_registros_historicos
 FROM dbo.AuditoriaCambios;
 GO
+
+--
