@@ -1,0 +1,14 @@
+DECLARE @Fecha VARCHAR(20);
+
+SET @Fecha =
+REPLACE(CONVERT(VARCHAR,GETDATE(),120),':','-');
+
+DECLARE @Ruta VARCHAR(300);
+
+SET @Ruta =
+'C:\Backups\HotelDB_' + @Fecha + '.bak';
+
+BACKUP DATABASE HotelDB
+TO DISK=@Ruta
+WITH INIT, STATS=10;
+GO
