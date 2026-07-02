@@ -143,3 +143,5 @@ FROM dbo.AuditoriaCambios
 GROUP BY tabla_afectada, operacion
 ORDER BY tabla_afectada, operacion;
 GO
+
+--
