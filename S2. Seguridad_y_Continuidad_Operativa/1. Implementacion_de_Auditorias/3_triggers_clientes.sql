@@ -127,5 +127,4 @@ WHERE OBJECT_NAME(parent_id) = 'Clientes'
 ORDER BY name;
 GO
 
-
-
+--
