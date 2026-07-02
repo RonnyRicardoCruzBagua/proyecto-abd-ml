@@ -48,3 +48,4 @@ Esta actividad complementa ese trabajo gestionando la tabla historica `dbo.Audit
 ## Resultado esperado
 
 La tabla `dbo.AuditoriaCambios` queda preparada como tabla historica central, con constraints e indices, y recibe automaticamente los registros generados por los triggers cuando se hacen operaciones `INSERT`, `UPDATE` y `DELETE` en tablas criticas.
+
