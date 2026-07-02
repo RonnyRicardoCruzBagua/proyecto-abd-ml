@@ -72,3 +72,5 @@ BEGIN
     PRINT 'Integracion verificada: los triggers esperados estan activos y registran cambios en dbo.AuditoriaCambios.';
 END;
 GO
+
+--
