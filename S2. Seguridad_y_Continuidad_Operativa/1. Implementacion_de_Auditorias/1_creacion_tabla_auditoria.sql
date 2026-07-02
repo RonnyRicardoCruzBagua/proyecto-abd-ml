@@ -59,5 +59,5 @@ SELECT COUNT(*) AS total_registros_auditoria
 FROM dbo.AuditoriaCambios;
 GO
 
-
+--
 
