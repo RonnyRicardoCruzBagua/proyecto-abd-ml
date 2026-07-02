@@ -36,4 +36,3 @@ La tabla recibe registros desde los triggers creados para:
 
 - `Clientes`: insercion, actualizacion y eliminacion.
 - `Reservas`: insercion, actualizacion y eliminacion.
-
