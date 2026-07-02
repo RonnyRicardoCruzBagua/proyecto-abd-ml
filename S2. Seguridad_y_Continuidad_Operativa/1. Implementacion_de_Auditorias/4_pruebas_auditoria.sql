@@ -170,6 +170,4 @@ FROM dbo.AuditoriaCambios
 ORDER BY id_auditoria DESC;
 GO
 
-
-
-
+--
