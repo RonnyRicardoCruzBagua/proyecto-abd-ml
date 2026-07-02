@@ -57,3 +57,5 @@ WHERE i.object_id = OBJECT_ID('dbo.AuditoriaCambios')
   AND i.name IS NOT NULL
 ORDER BY i.name;
 GO
+
+--
