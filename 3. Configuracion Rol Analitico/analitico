@@ -1,1 +1,15 @@
-ok
+Configuración del Rol Analítico
+Objetivo
+Crear un rol de SQL Server llamado RolAnalitico que tenga acceso únicamente a consultas y visualización de información, sin permitir modificaciones en los datos.
+La idea es que usuarios analíticos puedan:
+✅ Consultar vistas
+✅ Ejecutar SELECT sobre información analítica
+✅ Generar reportes
+Pero NO puedan:
+❌ INSERT
+❌ UPDATE
+❌ DELETE
+❌ ALTER TABLE
+
+Lo que realizo fue lo sigi
+
