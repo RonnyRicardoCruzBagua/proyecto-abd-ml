@@ -8,3 +8,5 @@ DIFFERENTIAL,
 NAME='Differential Backup HotelDB',
 STATS = 10;
 GO
+
+--
