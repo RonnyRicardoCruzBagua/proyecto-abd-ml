@@ -15,3 +15,5 @@ RESTORE LOG HotelDB
 FROM DISK='C:\Backups\HotelDB_Log.trn'
 WITH RECOVERY;
 GO                  
+
+--
