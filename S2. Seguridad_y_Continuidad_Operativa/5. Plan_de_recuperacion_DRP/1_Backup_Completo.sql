@@ -9,3 +9,5 @@ INIT,
 NAME='Full Backup HotelDB',
 STATS = 10;
 GO
+
+--
