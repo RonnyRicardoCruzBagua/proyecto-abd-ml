@@ -46,3 +46,5 @@ ORDER BY fecha_evento DESC;
 
 SELECT name
 FROM sys.triggers;
+
+--
