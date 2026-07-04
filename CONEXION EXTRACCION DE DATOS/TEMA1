@@ -1,1 +1,16 @@
+¿Cuál es el objetivo?
+El objetivo es que Python pueda leer información almacenada en SQL Server para posteriormente analizarla.
+El flujo es:
+Plain Text1SQL Server2     ↓3 Conexión (pyodbc)4     ↓5Consulta SQL6     ↓7Pandas DataFrame8     ↓9Análisis de datos
 
+
+Arquitectura de la conexión
+Se utilizó la librería PyODBC para conectar Python con SQL Server.
+La conexión se realizó hacia la base de datos HotelDB utilizando autenticación integrada de Windows.
+Posteriormente se ejecutaron consultas SQL para recuperar información desde tablas y vistas analíticas.
+Los resultados fueron cargados en estructuras DataFrame de Pandas para facilitar el análisis de datos 
+y su posterior utilización en procesos analíticos y de Machine Learning.
+
+Mi tema consistió en conectar Python con SQL Server utilizando PyODBC. Una vez establecida la conexión,
+ejecuté consultas SQL optimizadas para extraer información de la base HotelDB. Los datos obtenidos se cargaron en DataFrames de Pandas, 
+lo que permite analizarlos y utilizarlos posteriormente en procesos de Machine Learning y generación de reportes.
