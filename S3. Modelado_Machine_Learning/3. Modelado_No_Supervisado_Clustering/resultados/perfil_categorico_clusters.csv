@@ -1,0 +1,3 @@
+cluster,hotel_principal,segmento_principal,canal_principal,tipo_cliente_principal,deposito_principal,estado_principal
+0,Resort Hotel,Direct,Direct,Transient,No Deposit,Check-Out
+1,City Hotel,Online TA,TA/TO,Transient,No Deposit,Check-Out
