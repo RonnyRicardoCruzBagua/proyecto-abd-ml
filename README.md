@@ -34,3 +34,28 @@ resorts.
 6. Generar información útil para optimizar la planificación operativa y reducir el impacto de las cancelaciones en los establecimientos hoteleros.
 
 ## Tecnologias Usadas:
+
+### Bases de Datos
+- SQL Server
+- MongoDB
+
+### Lenguajes de Programación
+- Python
+
+### Librerías para Ciencia de Datos
+- Pandas
+- NumPy
+- Scikit-Learn
+- Matplotlib
+- Seaborn
+
+### Entorno de Desarrollo
+- Visual Studio Code
+- Jupyter Notebook
+
+### Control de Versiones
+- Git
+- GitHub
+
+### Dataset
+- Hotel Booking Demand
