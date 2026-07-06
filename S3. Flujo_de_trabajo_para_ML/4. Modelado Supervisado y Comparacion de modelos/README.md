@@ -1,13 +1,5 @@
 # Modelado Supervisado y Comparación de Modelos
 
-## Proyecto
-
-**Hotel Booking Demand**
-
-## Tema
-
-**Predicción de cancelación de reservas hoteleras y segmentación de clientes mediante Machine Learning y persistencia híbrida SQL Server + MongoDB**
-
 ---
 
 ## Descripción general
@@ -65,6 +57,8 @@ Ambos modelos fueron evaluados usando las métricas:
 - Recall
 - F1-score
 
+---
+
 ### Resultados obtenidos
 
 | Modelo | Accuracy | Precision | Recall | F1-score |
@@ -101,6 +95,3 @@ Random Forest logró mejores resultados en todas las métricas principales, espe
 En esta etapa se entrenaron y compararon dos modelos supervisados para predecir cancelaciones hoteleras.
 El modelo Random Forest fue seleccionado como el mejor modelo debido a que obtuvo mayor Accuracy, Precision, Recall y F1-score.
 Esto indica que Random Forest es más adecuado para apoyar la predicción de cancelaciones de reservas dentro del proyecto
-
-
-
