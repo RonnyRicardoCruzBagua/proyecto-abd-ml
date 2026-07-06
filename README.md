@@ -61,3 +61,23 @@ resorts.
 
 ### Dataset
 - Hotel Booking Demand
+
+## Interfaz visual con Streamlit
+
+La actividad final se implemento en `app_streamlit.py`. La aplicacion permite:
+
+- Ingresar datos de una nueva reserva hotelera mediante formularios interactivos.
+- Predecir en tiempo real la probabilidad de cancelacion con Random Forest.
+- Consultar reservas del dataset del proyecto, registros creados desde la interfaz y, si esta disponible, la vista `vw_prediccion_cancelacion` de SQL Server.
+- Registrar nuevas reservas y guardar predicciones en `streamlit_data/reservas_interfaz.csv`.
+- Conectarse opcionalmente a MongoDB para persistir predicciones.
+- Visualizar indicadores y graficas de cancelaciones por hotel, mes y segmento de mercado.
+
+Ejecucion sugerida:
+
+```bash
+pip install -r requirements.txt
+streamlit run app_streamlit.py
+```
+
+Si SQL Server o MongoDB no estan activos, la aplicacion sigue funcionando con los archivos CSV del proyecto.
