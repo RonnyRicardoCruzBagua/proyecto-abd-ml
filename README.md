@@ -1,4 +1,4 @@
-![unach](Unach.png)
+![Unach](Unach.png)
 
 # Universidad Nacional de Chimborazo
 
