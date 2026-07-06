@@ -1,8 +1,10 @@
-# Informe de resultados - Modelado No Supervisado (Clustering)
+# **Informe de resultados - Modelado No Supervisado (Clustering)**
 
 ## Objetivo
 
 Implementar K-Means para identificar segmentos o patrones ocultos dentro de las reservas hoteleras del proyecto Hotel Booking Demand.
+
+---
 
 ## Dataset utilizado
 
@@ -14,12 +16,16 @@ Este dataset contiene 87,370 registros y 31 columnas transformadas y escaladas.
 
 Para el modelado se excluyeron las variables `is_canceled`, `reservation_status` y `reservation_status_date`, porque representan resultados o estados posteriores de la reserva. El clustering se realizo con 28 variables explicativas.
 
+---
+
 ## Algoritmo implementado
 
 Se aplico K-Means con valores de `k` entre 2 y 8. Para cada valor se calcularon:
 
 - Inercia, usada en el Metodo del Codo.
 - Coeficiente de Silueta, usado para evaluar separacion y cohesion de los clusters.
+
+---
 
 ## Numero optimo de clusters
 
@@ -38,6 +44,8 @@ El mejor valor segun el coeficiente de silueta fue:
 | 6 | 1857212.1169 | 0.1037 |
 | 7 | 1788503.5086 | 0.0870 |
 | 8 | 1716271.3007 | 0.0944 |
+
+---
 
 ## Perfil general de clusters
 
@@ -58,6 +66,8 @@ El mejor valor segun el coeficiente de silueta fue:
 - `graficas/03_distribucion_clusters.png`
 - `graficas/04_perfil_clusters.png`
 - `graficas/05_clusters_pca.png`
+
+---
 
 ## Conclusiones
 
