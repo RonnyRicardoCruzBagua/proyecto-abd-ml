@@ -13,7 +13,7 @@ Actividad del Integrante 3 para implementar K-Means sobre el dataset hotelero pr
 3. `resultados/`
    - CSV con metricas por valor de `k`, etiquetas de cluster y resumen de perfiles.
 
-4. `informe_resultados.md`
+4. `Readme.md` /resultados
    - Informe con metodologia, numero optimo de clusters, metricas, interpretacion y conclusiones.
 
 ## Orden de ejecucion
