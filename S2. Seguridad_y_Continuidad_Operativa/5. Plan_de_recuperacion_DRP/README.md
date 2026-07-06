@@ -212,3 +212,4 @@ Ante un incidente crítico se deberá seguir el siguiente procedimiento:
 ## Resultado Esperado
 
 Garantizar la recuperación total de la base de datos HotelDB ante una falla crítica utilizando procedimientos documentados, verificables y ejecutables, minimizando el tiempo de indisponibilidad y la pérdida de información.
+
