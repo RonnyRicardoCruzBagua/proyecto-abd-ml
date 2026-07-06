@@ -1,6 +1,6 @@
 # Modelado No Supervisado (Clustering)
 
-Actividad del Integrante 3 para implementar K-Means sobre el dataset hotelero preparado para Machine Learning.
+Se implementa K-Means sobre el dataset hotelero preparado para Machine Learning.
 
 ## Archivos
 
@@ -13,7 +13,7 @@ Actividad del Integrante 3 para implementar K-Means sobre el dataset hotelero pr
 3. `resultados/`
    - CSV con metricas por valor de `k`, etiquetas de cluster y resumen de perfiles.
 
-4. `Readme.md` /resultados
+4. `Readme.md` //alojado en resultados
    - Informe con metodologia, numero optimo de clusters, metricas, interpretacion y conclusiones.
 
 ## Orden de ejecucion
