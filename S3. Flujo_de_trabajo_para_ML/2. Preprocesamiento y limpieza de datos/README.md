@@ -1,9 +1,5 @@
 # PREPROCESAMIENTO, LIMPIEZA Y PREPARACIÓN DE DATOS
 
-## Integrante
-
-**Victoria  Moyon **
-
 ---
 
 # Descripción General
@@ -15,8 +11,6 @@ El objetivo principal fue mejorar la calidad de la información mediante técnic
 Durante esta actividad se realizó un análisis exhaustivo de la calidad de los datos, identificando problemas relacionados con valores faltantes, registros duplicados y variables categóricas que requerían transformación.
 
 ---
-
-# Objetivos de la Actividad
 
 ## Objetivo General
 
