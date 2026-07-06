@@ -41,6 +41,8 @@ resorts.
 
 ### Lenguajes de Programación
 - Python
+- Tsql
+- Jupiter Notebooks
 
 ### Librerías para Ciencia de Datos
 - Pandas
