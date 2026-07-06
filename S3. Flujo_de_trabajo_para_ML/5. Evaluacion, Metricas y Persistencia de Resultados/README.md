@@ -3,6 +3,8 @@
 ## Objetivo
 Desarrollar la etapa final del proyecto Hotel Booking Demand, integrando la evaluacion de modelos supervisados, resultados de clustering y persistencia de resultados en formato JSON y MongoDB.
 
+---
+
 ## Modelos supervisados evaluados
 - Regresion Logistica
 - Random Forest
@@ -11,6 +13,8 @@ Random Forest fue seleccionado como mejor modelo porque obtuvo mayores valores e
 
 ## Clustering
 Se utilizo K-Means para segmentar las reservas. Se evaluaron valores de k entre 2 y 8 usando inercia y coeficiente de silueta. El valor optimo fue k = 2.
+
+---
 
 ## Archivos generados
 - scripts/metricas_evaluacion.py
@@ -28,4 +32,3 @@ Se utilizo K-Means para segmentar las reservas. Se evaluaron valores de k entre 
 3. Iniciar MongoDB local
 4. Ejecutar `python mongodb/insertar_resultados_mongodb.py`
 5. Ejecutar `python mongodb/consultar_resultados_mongodb.py`
-
