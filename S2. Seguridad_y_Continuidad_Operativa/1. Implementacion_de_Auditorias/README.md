@@ -1,11 +1,5 @@
 # Auditoría mediante Triggers
 
-**Hotel Booking Demand**
-
-### **Tema:** 
-
-**Predicción de cancelación de reservas hoteleras y segmentación de clientes mediante Machine Learning y persistencia híbrida SQL Server + MongoDB**
-
 ---
 **Descripción general**  
 
@@ -126,4 +120,3 @@ Contiene la información principal de las reservas hoteleras, como hotel, client
 
 Contiene información relacionada con el cliente, como país, tipo de cliente, si es cliente repetido y su historial de cancelaciones.
 Auditar estas tablas ayuda a controlar cambios en datos que pueden afectar el análisis y los modelos de Machine Learning.
-

@@ -1,6 +1,6 @@
 # Persistencia Hibrida y conexion a Mongo DB
 
-Hemos implementado la persistencia híbrida, específicamente en:
+Se ha implementado la persistencia híbrida, específicamente en:
 
 •	Integrar el modelo de Machine Learning con una base de datos NoSQL (MongoDB)}
 
