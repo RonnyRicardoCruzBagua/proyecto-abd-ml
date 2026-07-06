@@ -1,6 +1,6 @@
-![Unach](Unach.png)
+# **Universidad Nacional de Chimborazo**
 
-# Universidad Nacional de Chimborazo
+![Unach](Unach.png)
 
 ## Título del proyecto
 Predicción de cancelación de reservas hoteleras y segmentación de clientes mediante Machine Learning y persistencia
