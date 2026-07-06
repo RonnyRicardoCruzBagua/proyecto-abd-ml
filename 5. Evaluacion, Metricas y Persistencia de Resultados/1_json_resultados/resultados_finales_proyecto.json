@@ -1,0 +1,165 @@
+{
+    "proyecto": "Prediccion de Cancelacion de Reservas Hoteleras",
+    "objetivo": "Predecir cancelaciones de reservas hoteleras y segmentar reservas/clientes mediante Machine Learning.",
+    "dataset_preparado": {
+        "registros": 87370,
+        "columnas": 31
+    },
+    "resultado_supervisado": {
+        "proyecto": "Prediccion de Cancelacion de Reservas Hoteleras",
+        "tipo_modelado": "supervisado",
+        "variable_objetivo": "is_canceled",
+        "dataset": {
+            "registros": 87370,
+            "columnas": 31,
+            "division": "80% entrenamiento - 20% prueba",
+            "test_registros": 17474
+        },
+        "modelos": [
+            {
+                "modelo": "Regresion Logistica",
+                "accuracy": 0.7757239327000115,
+                "precision": 0.6690839694656489,
+                "recall": 0.3648283038501561,
+                "f1_score": 0.4721885521885522,
+                "matriz_confusion": [
+                    [
+                        11802,
+                        867
+                    ],
+                    [
+                        3052,
+                        1753
+                    ]
+                ],
+                "interpretacion": "Modelo base con accuracy aceptable, pero bajo recall para reservas canceladas."
+            },
+            {
+                "modelo": "Random Forest",
+                "accuracy": 0.8523520659265194,
+                "precision": 0.7736777367773677,
+                "recall": 0.6545265348595213,
+                "f1_score": 0.7091319052987599,
+                "matriz_confusion": [
+                    [
+                        11749,
+                        920
+                    ],
+                    [
+                        1660,
+                        3145
+                    ]
+                ],
+                "interpretacion": "Mejor modelo supervisado; supera a Regresion Logistica en todas las metricas principales."
+            }
+        ],
+        "mejor_modelo": "Random Forest",
+        "criterio_seleccion": "Mayor accuracy, precision, recall y F1-score frente a Regresion Logistica."
+    },
+    "resultado_clustering": {
+        "proyecto": "Prediccion de Cancelacion de Reservas Hoteleras",
+        "tipo_modelado": "no supervisado",
+        "algoritmo": "K-Means",
+        "variables_excluidas": [
+            "is_canceled",
+            "reservation_status",
+            "reservation_status_date"
+        ],
+        "variables_utilizadas": 28,
+        "k_evaluados": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "metricas_kmeans": [
+            {
+                "k": 2,
+                "inercia": 2261582.994600403,
+                "coeficiente_silueta": 0.1670942744493208
+            },
+            {
+                "k": 3,
+                "inercia": 2119108.9504545606,
+                "coeficiente_silueta": 0.10867578424301241
+            },
+            {
+                "k": 4,
+                "inercia": 2024794.8570093247,
+                "coeficiente_silueta": 0.11714475614961625
+            },
+            {
+                "k": 5,
+                "inercia": 1934323.1725540117,
+                "coeficiente_silueta": 0.12356120844840075
+            },
+            {
+                "k": 6,
+                "inercia": 1857212.1168709286,
+                "coeficiente_silueta": 0.1037273685880784
+            },
+            {
+                "k": 7,
+                "inercia": 1788503.5085578943,
+                "coeficiente_silueta": 0.08704678668737023
+            },
+            {
+                "k": 8,
+                "inercia": 1716271.3006503005,
+                "coeficiente_silueta": 0.09442054675391946
+            }
+        ],
+        "k_optimo": 2,
+        "criterio_k_optimo": "Mayor coeficiente de silueta",
+        "clusters": [
+            {
+                "cluster": 0,
+                "total_registros": 18830,
+                "porcentaje_cancelacion": 13.887413701540098,
+                "lead_time_promedio": 44.7676048858205,
+                "adr_promedio": 95.69965693043017,
+                "noches_promedio": 2.8375995751460437,
+                "huespedes_promedio": 1.798088157195964,
+                "solicitudes_promedio": 0.48252788104089217,
+                "cambios_promedio": 0.4340414232607541,
+                "cancelaciones_previas_promedio": 0.09314922995220393,
+                "porcentaje_registros": 21.55202014421426,
+                "perfil_categorico": {
+                    "hotel_principal": "Resort Hotel",
+                    "segmento_principal": "Direct",
+                    "canal_principal": "Direct",
+                    "tipo_cliente_principal": "Transient",
+                    "deposito_principal": "No Deposit",
+                    "estado_principal": "Check-Out"
+                },
+                "interpretacion": "Segmento de reservas principalmente de resort, por canal directo, con menor anticipacion y menor tasa de cancelacion."
+            },
+            {
+                "cluster": 1,
+                "total_registros": 68540,
+                "porcentaje_cancelacion": 31.23577473008462,
+                "lead_time_promedio": 89.56682229355121,
+                "adr_promedio": 109.27206288298804,
+                "noches_promedio": 3.8492850889991246,
+                "huespedes_promedio": 2.0879194630872484,
+                "solicitudes_promedio": 0.7580099212138897,
+                "cambios_promedio": 0.22706448789028305,
+                "cancelaciones_previas_promedio": 0.013189378465129851,
+                "porcentaje_registros": 78.44797985578575,
+                "perfil_categorico": {
+                    "hotel_principal": "City Hotel",
+                    "segmento_principal": "Online TA",
+                    "canal_principal": "TA/TO",
+                    "tipo_cliente_principal": "Transient",
+                    "deposito_principal": "No Deposit",
+                    "estado_principal": "Check-Out"
+                },
+                "interpretacion": "Segmento mayoritario, asociado a hotel urbano y reservas por agencias online, con mayor anticipacion y mayor tasa de cancelacion."
+            }
+        ]
+    },
+    "conclusion_general": "Random Forest fue el mejor modelo para prediccion de cancelaciones. K-Means permitio separar las reservas en dos segmentos, donde el cluster 1 concentra mas registros y mayor porcentaje de cancelacion."
+}

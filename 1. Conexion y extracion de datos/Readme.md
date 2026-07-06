@@ -1,5 +1,7 @@
-¿Cuál es el objetivo?
+# **¿Cuál es el objetivo?**
+
 El objetivo es que Python pueda leer información almacenada en SQL Server para posteriormente analizarla.
+
 El flujo es:
 Plain Text1SQL Server2     ↓3 Conexión (pyodbc)4     ↓5Consulta SQL6     ↓7Pandas DataFrame8     ↓9Análisis de datos
 
